@@ -1,0 +1,191 @@
+<html>
+    <head>
+        <title>
+            MY WEBSITE
+        </title>
+        <style>
+            .header{
+                padding:30px;
+                text-align:center;
+                background-image:url('my.jpg');
+                background-repeat:no-repeat;
+                background-position:center;
+                background-size:cover;
+            }
+            .topnav{
+                background-color:bisque;
+                overflow:hidden;
+            }
+            .topnav a{
+                text-decoration:none;
+                text-align:center;
+                color:red;
+                float: left;
+                display: block;
+                padding: 14px 16px;
+            }
+            .topnav a:hover{
+                background-color: orange;
+                color:black;
+            }
+            .leftcolumn
+            {
+                float: left;
+                width:73%;
+
+            }
+            .rightcolumn
+            {
+                float:left;
+                width:25%;
+                background-color:white;
+                padding-left:20px;
+            }
+            .fakeimg
+            {
+                background-image:url('coffee.jpg');
+                background-repeat:no-repeat;
+                background-position:center;
+                background-size:cover;
+                width :100%;
+                padding:20px;
+            }
+            .fakeimg1
+            {
+                background-image:url('youme.jpg');
+                background-repeat:no-repeat;
+                background-position:center;
+                background-size:cover;
+                width :100%;
+                padding:20px;
+            }
+            .fakeimg2
+            {
+                background-image:url('surprise.jpg');
+                background-repeat:no-repeat;
+                background-position:center;
+                background-size:cover;
+                width :100%;
+                padding:20px;
+
+                
+            }
+            .about
+            {
+                background-image:url('mine.jpg');
+                background-repeat:no-repeat;
+                background-position:center;
+                background-size:cover;
+                width :100%;
+                padding:20px;
+                
+                
+            }
+            .myone
+            {
+                background-image:url('me.jpg');
+                background-repeat:no-repeat;
+                background-position:center;
+                background-size:cover;
+                width :100%;
+                padding:20px;
+                
+                
+            }
+            .card
+            {
+                background-color:white;
+                padding:20px;
+                margin-top:20px;
+
+            }
+            .row::after
+            {
+                content:"";
+                display:table;
+                clear:both;
+            }
+            .footer
+            {
+             padding:20px;
+             text-align:center;
+             background:#add;
+             margin-top:20px;
+            }
+            @media screen and(max-width:800){
+                .leftcolumn,.rightcolumn{
+                    width:100%;
+                    padding:0;
+
+                }
+            }
+            @media screen and(max-width:400px){
+                .topnav a{
+                    float:none;
+                    width:100%;
+                }
+            }
+
+
+            
+        </style>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+      <div class="header">
+<h1> MY WEBSITE</h1>
+<P> You make my life happy...</P>
+      </div>
+      <div class="topnav">
+      <a href =""> HOME</a>
+      <a href="">ABOUT ME</a>
+      <a style="float:right;"  href="">LOGOUT</a>
+      </div>
+      <div class="row">
+        <div class="leftcolumn">
+            <div class="card">
+                <h1>coffee shop</h1>
+                <h5>sep 14 2023</h5>
+                <div class="fakeimg" style="height:100px;"></div>
+                <p> First meet in coffee shop</p>
+            </div>
+            <div class="card">
+                <h1>Next meeting</h1>
+                <h5>sep 25 2023</h5>
+                <div class="fakeimg1" style="height:100px;"></div>
+                <p>I HAVE AN SECRETE FOR U... </p>
+            </div>
+            <div class="card">
+                <h1>HAPPY BIRTHDAY</h1>
+                <h5>NOV 18  2023</h5>
+                <div class="fakeimg2" style="height:100px;"></div>
+                <p>HAPPIEST BIRTHDAY ...........</p>
+            </div>
+        </div>
+        <div class="rightcolumn">
+            <div class="card">
+                <h2> About me</h2>
+                <div class="about" style="height:100px;"></div>
+                <p>understanding person...</p>
+            </div>
+            <div class="card">
+                <h2>popular post</h2>
+                <div class="about" style="height:100px;"></div><br>
+                <div class="myone" style="height:100px;"></div>
+                
+            </div>
+                <div class="card">
+                    <h2> FOLLOW ME</h2>
+                    <a href=https://open.spotify.com/track/5ZvecvpRoq2OnVj5wRolAb><i class="fa fa-spotify" aria-hidden="true"></i></a>
+
+                    <P>some text</p>
+                    </div>
+            
+
+        </div>
+      </div>
+      <div class="footer">
+        <h1> FOOTER</h1>
+    </div>
+    </body>
+</html>
